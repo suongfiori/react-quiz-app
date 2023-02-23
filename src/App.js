@@ -20,7 +20,6 @@ function App() {
 
   return ( 
     <BrowserRouter>
-      {/* <div className= "App" style={{backgroundColor: "#FFF9E4"}}> */}
       <div className= "App" style={{backgroundColor: "#FFD600"}}>
         <Header />
         <Routes>
