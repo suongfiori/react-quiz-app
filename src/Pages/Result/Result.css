@@ -1,0 +1,9 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+.score-info {
+    font-size: 2em;
+    margin: 2rem;
+}
