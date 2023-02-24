@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import {decode} from "html-entities"
-import ErrorMessage from '../../components/ErrorMessage/ErrorMessage'
+import ErrorMessage from '../ErrorMessage/ErrorMessage'
 import { Button } from '@material-ui/core'
-import "./Question.css"
+import "./Quiz.css"
 import { useNavigate } from 'react-router-dom'
 
-const Question = ({
+const Quiz = ({
   questions, 
   currentQuestion, 
   setCurrentQuestion,
@@ -64,8 +64,6 @@ const Question = ({
                 <button 
                     key={option}
                     className={`single-option ${selected && getOptionClass(option)}` }
-                    // class name "single-option" is a general class for all answer options
-                    // If "selected" is truthy, the expression evaluates to the result of handleSelect(i).
                     onClick={() => handleCheck(option)}
                     disabled={selected}
                 >
@@ -80,7 +78,7 @@ const Question = ({
                   color="secondary"
                   size="large"
                   style={{ width: 185 }}
-                  href="/"  // quit = go back to the home screen
+                  href="/" 
                   onClick={handleQuit}
               >
                 Quit
@@ -100,4 +98,4 @@ const Question = ({
   )
 }
 
-export default Question
+export default Quiz

@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './Pages/Home/Home';
-import Quiz from './Pages/Quiz/Quiz';
+import QuizPage from './Pages/QuizPage/QuizPage';
 import Result from './Pages/Result/Result';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
               />}>
             </Route>
             <Route path="/quiz" 
-              element={<Quiz
+              element={<QuizPage
                   name={name} 
                   questions={questions}
                   score={score}
