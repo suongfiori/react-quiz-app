@@ -1,75 +1,51 @@
+<h1>React Quiz App</h1>
+
+This is a quiz application built with React.js that allows users to test their knowledge on a variety of topics. The app features multiple-choice questions with feedback on correct and incorrect answers, as well as a score points counter that tracks the user's progress throughout the quiz.
+
+### Features
+:heavy_check_mark: Multiple-choice questions with randomized answers
+
+:heavy_check_mark: Feedback on correct and incorrect answers
+
+:heavy_check_mark: Score points counter that tracks the user's progress throughout the quiz
+
+:heavy_check_mark: Option to restart the quiz after completion
+
+### Technologies Used
+
+ ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+ <br>
+
+### Libraries Used
+
+:arrow_right: React Router: https://reactrouter.com/
+
+:arrow_right: Material UI: https://material-ui.com/
+
+
+
+### Usage
+To use the app, simply click on the **`Start Quiz`** :arrow_forward: button on the home page to begin. The quiz will consist of multiple-choice questions with randomized answers. Select your answer and click **`Next`** :fast_forward: to proceed to the next question. Once the quiz is complete, you will see your **score** and have the option to **restart** the quiz.
+
 ### Screenshots
 
-<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Quiz_1.png" width="70%">
+<h4>Home Page</h4>
 
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Quiz_1.png" width="60%"> <br>
 
-# Getting Started with Create React App
+<h4>Page Loading...</h4>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Page_loading.png" width="60%"> <br>
 
-## Available Scripts
+<h4>Quiz Page</h4>
 
-In the project directory, you can run:
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Quiz_2.png" width="60%"> <br>
 
-### `npm start`
+<h4>Correct answer</h4>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Correct.png" width="60%"> <br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h4>Incorrect selected answer</h4>
 
-### `npm test`
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Incorrect.png" width="60%"> <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
