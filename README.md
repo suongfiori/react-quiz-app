@@ -1,6 +1,6 @@
 ### Screenshots
 
-<img src="" width="70%">
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Quiz_1.png" width="70%">
 
 
 # Getting Started with Create React App
