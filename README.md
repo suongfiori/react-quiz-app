@@ -1,6 +1,24 @@
 ### Screenshots
 
-<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Quiz_1.png" width="70%">
+<h4>Home Page</h4>
+
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Quiz_1.png" width="60%"> <br>
+
+<h4>Page Loading...</h4>
+
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Page_loading.png" width="60%"> <br>
+
+<h4>Quiz Page</h4>
+
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Quiz_2.png" width="60%"> <br>
+
+<h4>Correct answer</h4>
+
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Correct.png" width="60%"> <br>
+
+<h4>Incorrect selected answer</h4>
+
+<img src="https://raw.githubusercontent.com/suongfiori/react-quiz-app/master/public/Incorrect.png" width="60%"> <br>
 
 
 # Getting Started with Create React App
