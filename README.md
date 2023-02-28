@@ -3,7 +3,7 @@
 This is a quiz application built with React.js that allows users to test their knowledge on a variety of topics. The app features multiple-choice questions with feedback on correct and incorrect answers, as well as a score points counter that tracks the user's progress throughout the quiz.
 
 ### Features
-:heavy_check_mark: Multiple-choice questions with randomized answers
+:heavy_check_mark: Multiple-choice questions with randomized answers being called from Trivia API
 
 :heavy_check_mark: Feedback on correct and incorrect answers
 
