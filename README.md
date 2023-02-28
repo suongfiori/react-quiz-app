@@ -3,7 +3,7 @@
 This is a quiz application built with React.js that allows users to test their knowledge on a variety of topics. The app features multiple-choice questions with feedback on correct and incorrect answers, as well as a score points counter that tracks the user's progress throughout the quiz.
 
 ### Features
-:heavy_check_mark: Multiple-choice questions with randomized answers
+:heavy_check_mark: Multiple-choice questions with randomized answers being called from Trivia API
 
 :heavy_check_mark: Feedback on correct and incorrect answers
 
@@ -22,7 +22,9 @@ This is a quiz application built with React.js that allows users to test their k
 
 :arrow_right: Material UI: https://material-ui.com/
 
+### API Used
 
+API: https://opentdb.com/api.php?amount=10
 
 ### Usage
 To use the app, simply click on the **`Start Quiz`** :arrow_forward: button on the home page to begin. The quiz will consist of multiple-choice questions with randomized answers. Select your answer and click **`Next`** :fast_forward: to proceed to the next question. Once the quiz is complete, you will see your **score** and have the option to **restart** the quiz.
